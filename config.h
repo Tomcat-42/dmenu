@@ -1,5 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
+
 //cores do pywal
 #define PYWAL 0
 
@@ -13,6 +14,9 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOut] = { "#c4c5c6", "#8179a9" },
 };
 #endif
+
+// Fuzzy match patch
+static int fuzzy = 1;
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
@@ -32,3 +36,6 @@ static unsigned int lines      = 0;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+/* Size of the window border */
+static const unsigned int border_width = 0;
