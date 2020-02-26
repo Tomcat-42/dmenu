@@ -7,12 +7,20 @@
 #if PYWAL
 #include "/home/pablo951_br/.cache/wal/colors-wal-dmenu.h"
 #else
+//static const char *colors[SchemeLast][2] = {
+//	/*     fg         bg       */
+//	[SchemeNorm] = { "#c4c5c6", "#15181c" },
+//	[SchemeSel] = { "#c4c5c6", "#1a3773" },
+//	[SchemeOut] = { "#c4c5c6", "#8179a9" },
+//};
+
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#c4c5c6", "#15181c" },
-	[SchemeSel] = { "#c4c5c6", "#1a3773" },
-	[SchemeOut] = { "#c4c5c6", "#8179a9" },
+	[SchemeNorm] = { "#c5c5c5", "#181818" },
+	[SchemeSel] = { "#c5c5c5", "#5e302d" },
+	[SchemeOut] = { "#c5c5c5", "#687784" },
 };
+
 #endif
 
 // Fuzzy match patch
