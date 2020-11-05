@@ -14,11 +14,18 @@
 //	[SchemeOut] = { "#c4c5c6", "#8179a9" },
 //};
 
+// static const char *colors[SchemeLast][2] = {
+//     /*     fg         bg       */
+//     [SchemeNorm] = {"#f7f7fb", "#282936"},
+//     [SchemeSel] = {"#282936", "#66d9ef"},
+//     [SchemeOut] = {"#f7f7fb", "#a1efe4"},
+// };
+//
 static const char *colors[SchemeLast][2] = {
-    /*     fg         bg       */
-    [SchemeNorm] = {"#f7f7fb", "#282936"},
-    [SchemeSel] = {"#282936", "#66d9ef"},
-    [SchemeOut] = {"#f7f7fb", "#a1efe4"},
+	/*     fg         bg       */
+	[SchemeNorm] = { "#e5e9f0", "#2E3440" },
+	[SchemeSel] = { "#2E3440", "#88C0D0" },
+	[SchemeOut] = { "#e5e9f0", "#D08770" },
 };
 
 #endif
