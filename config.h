@@ -21,11 +21,22 @@
 //     [SchemeOut] = {"#f7f7fb", "#a1efe4"},
 // };
 //
+
+
+// Nord theme
+// static const char *colors[SchemeLast][2] = {
+// 	/*     fg         bg       */
+// 	[SchemeNorm] = { "#e5e9f0", "#2E3440" },
+// 	[SchemeSel] = { "#2E3440", "#88C0D0" },
+// 	[SchemeOut] = { "#e5e9f0", "#D08770" },
+// };
+
+// Dracula theme
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#e5e9f0", "#2E3440" },
-	[SchemeSel] = { "#2E3440", "#88C0D0" },
-	[SchemeOut] = { "#e5e9f0", "#D08770" },
+    /*     fg         bg       */
+    [SchemeNorm] = {"#F8F8F2", "#282A36"},
+    [SchemeSel] = {"#282A36", "#50FA7B"},
+    [SchemeOut] = {"#F8F8F2", "#a1efe4"},
 };
 
 #endif
