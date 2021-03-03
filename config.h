@@ -32,11 +32,18 @@
 // };
 
 // Dracula theme
+// static const char *colors[SchemeLast][2] = {
+//     /*     fg         bg       */
+//     [SchemeNorm] = {"#F8F8F2", "#282A36"},
+//     [SchemeSel] = {"#282A36", "#50FA7B"},
+//     [SchemeOut] = {"#F8F8F2", "#a1efe4"},
+// };
+
 static const char *colors[SchemeLast][2] = {
-    /*     fg         bg       */
-    [SchemeNorm] = {"#F8F8F2", "#282A36"},
-    [SchemeSel] = {"#282A36", "#50FA7B"},
-    [SchemeOut] = {"#F8F8F2", "#a1efe4"},
+	/*     fg         bg       */
+	[SchemeNorm] = { "#FFFFFF", "#1e1f26" },
+	[SchemeSel] = { "#bd93f9", "#1e1f26" },
+	[SchemeOut] = { "#1e1f26", "#bd93f9" },
 };
 
 #endif
@@ -52,7 +59,8 @@ static int topbar = 1; /* -b  option; if 0, dmenu appears at bottom     */
 static const char *fonts[] = {
     //"terminus:size=12"
     //"envypn:size=9"
-    "GohuFont:size=12"};
+    //"GohuFont:size=12"
+    "Iosevka:size=9:antialias=false:autohint=false"};
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
