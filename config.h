@@ -43,8 +43,8 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#FFFFFF", "#1e1f26" },
 	[SchemeSel] = { "#bd93f9", "#1e1f26" },
-	[SchemeSelHighlight] = { "#ff79c6", "#1e1f26" },
-	[SchemeNormHighlight] = { "#ff79c6", "#1e1f26" },
+	[SchemeSelHighlight] = { "#50fa7b", "#1e1f26" },
+	[SchemeNormHighlight] = { "#50fa7b", "#1e1f26" },
 	[SchemeOut] = { "#1e1f26", "#bd93f9" },
 };
 
